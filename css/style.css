@@ -200,6 +200,13 @@ main content div{
     border-radius: 10px;
 }
 
+
+.aventuras:hover {
+    border: groove 4px;
+    transition: 0.5s;
+    border-color: gray;
+}
+
 .sonic{
      height: 80%;
     width: 80%;
@@ -215,8 +222,6 @@ main content div{
     transition: 0.8s;
 
 }
-
-
 
 
 
@@ -245,6 +250,12 @@ main content div{
     background-image: url(../menu/imagenes/poligonosfond.jpg);
     border-radius: 10px;
 
+}
+
+.lucha:hover {
+    border: groove 4px;
+    transition: 0.5s;
+    border-color: gray;
 }
 
 .mortalk{
@@ -291,6 +302,15 @@ main content div{
     background-image: url(../menu/imagenes/poligonosfond.jpg);
     border-radius: 10px;
 }
+
+
+.carreras:hover {
+    border: groove 4px;
+    transition: 0.5s;
+    border-color: gray;
+}
+
+
 
 .auto1{
     height: 80%;
@@ -342,6 +362,14 @@ main content div{
 
 }
 
+.accion:hover {
+    border: groove 4px;
+    transition: 0.5s;
+    border-color: gray;
+}
+
+
+
 .goldenaxe{
     height: 80%;
     width: 80%;
@@ -383,6 +411,15 @@ main content div{
     border-radius: 10px;
 
 }
+
+.chill:hover {
+    border: groove 4px;
+    transition: 0.5s;
+    border-color: gray;
+}
+
+
+
 
 .tetris{
     height: 80%;
@@ -427,7 +464,11 @@ main content div{
 }
 
 
-
+.disparos:hover {
+    border: groove 4px;
+    transition: 0.5s;
+    border-color: gray;
+}
 
 .contra{
     height: 80%;
