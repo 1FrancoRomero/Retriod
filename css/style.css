@@ -1,0 +1,678 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: 'Kanit', sans-serif;
+font-family: 'Roboto Mono', monospace;
+}
+
+
+
+
+.gridAreas{
+    display: grid;
+    grid-template-areas:
+     "header   header"
+     "nav      nav"
+     "article  main"
+     "footer   footer"
+    ;
+      grid-template-columns: 20%  auto ;
+      grid-template-rows:10% 10%  auto ;
+      grid-column-gap: 5px ;
+      grid-row-gap: 10px;
+
+
+}
+
+
+
+/*GRID AREAS*/
+
+
+header {
+    grid-area: header;
+    background-image: url(../menu/imagenes/poligonosfod.jpg);
+}
+
+nav {
+    grid-area: nav;
+    padding: 5px;
+}
+
+body{
+    grid-area: body;
+    background-image: url(../menu/imagenes/fondoback.jpg);
+}
+
+main{
+    grid-area:main ;
+    background-color: whitesmoke;
+    background-image: url(../menu/imagenes/fondoback.jpg);
+}
+
+article{
+    grid-area: article;
+    background-image: url(../menu/imagenes/fondo2.jpg);
+
+
+
+}
+
+section{
+    grid-area: section;
+
+;
+}
+
+footer {
+    grid-area: footer;
+
+}
+
+h2 img{
+    padding-left: 30px;
+    padding-right: 25px;
+}
+
+
+
+.corona{
+    display: inline-block;
+   width:200px ;
+    padding-left: 100px;
+}
+
+
+.header h2 {
+    padding-bottom: 30px;
+    font-size: 40px;
+    font-family: monospace;
+}
+
+
+
+
+
+
+
+nav ul li:hover{
+    background-color: whitesmoke;
+    transition: black;
+
+}
+
+
+.nav ul li{
+    display: inline-block;
+    width: 15%;
+    height: 8vh;
+    padding: 15px;
+    background-color: white;
+    border: groove;
+    border-radius: 10px;
+}
+
+
+
+.masJugados ol li:hover{
+    background-color: gray;
+    transition: 1s;
+}
+
+.masJugados ol li{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-style: italic;
+    font-size: 30px;
+    padding: 20px;
+    list-style-type: decimal;
+    margin: 20%;
+
+}
+
+article {
+    height: 100%;
+    border-radius: 50px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+
+
+article h2{
+    font-style: italic;
+    color: white;
+    font-size: 30px;
+    padding: 30px;
+}
+
+
+
+
+   
+.main{
+    display: grid;
+    
+    grid-template-columns: repeat(2, 1fr) ;
+
+    grid-template-rows: repeat(3, 1fr);
+
+
+
+}
+
+
+
+.mainCategorias {  
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    padding: 50px;
+    width: 100%;
+    height: 100vh;
+    border: medium 4px;
+    border-style: ridge;
+    border-radius: 10px;
+    border-right: none;
+ }
+
+main content div{
+    margin: 10px;
+    display: inline-block;
+    border: solid 2px;
+    border-radius: 10px;
+    height: 190px;
+    width: 190px;
+    
+    
+}
+
+.aventuras{
+    display: flex;
+    flex-direction: row;
+    
+    color: white;
+    width: 650px;
+    height: 70%;
+    background-image: url(../menu/imagenes/poligonosfond.jpg);
+    border-radius: 10px;
+}
+
+.sonic{
+     height: 80%;
+    width: 80%;
+    background-image: url(../menu/imagenes/sonic.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.sonic:hover {
+    height: 90%;
+    width: 90%;
+    transition: 0.8s;
+
+}
+
+
+
+
+
+.zelda{
+     height: 80%;
+    width: 80%;
+    background-image: url(../menu/imagenes/zelda.jpg);
+    background-size: cover;
+    
+}
+
+.zelda:hover{
+    height: 90%;
+    width: 90%;
+    transition: 0.8s;
+}
+
+
+.lucha{
+    display: flex;
+    flex-direction: row;
+    color: white;
+     width: 650px;
+    height: 70%;
+    margin-left: 50px;
+    background-image: url(../menu/imagenes/poligonosfond.jpg);
+    border-radius: 10px;
+
+}
+
+.mortalk{
+     height: 80%;
+    width: 80%;
+    
+    background-image: url(../menu/imagenes/mortalk.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.mortalk:hover{
+    height: 90%;
+    width: 90%;
+    transition: 0.8s;
+}
+
+
+
+
+.streat{
+    
+    height: 80%;
+    width: 80%;
+    background-image: url(../menu/imagenes/stretf.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.streat:hover{
+    height: 90%;
+    width: 90%;
+    transition: 0.8s;
+}
+
+
+
+.carreras{
+    display: flex;
+    flex-direction: row;
+    color: white;
+     width: 650px;
+    height: 70%;
+    background-image: url(../menu/imagenes/poligonosfond.jpg);
+    border-radius: 10px;
+}
+
+.auto1{
+    height: 80%;
+    width: 80%;
+    background-image: url(../menu/imagenes/carreras1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.auto1:hover{
+    height: 90%;
+    width: 90%;
+    transition: 0.8s;
+}
+
+
+
+
+
+.taxi{
+    height: 80%;
+    width: 80%;
+    background-image: url(../menu/imagenes/taxi.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+.taxi:hover{
+    height: 90%;
+    width: 90%;
+    transition: 0.8s;
+}
+
+
+
+  
+.accion{
+    display: flex;
+    flex-direction: row;
+    color: white;
+     width: 650px;
+    height: 70%;
+   margin-left: 50px;
+    background-image: url(../menu/imagenes/poligonosfond.jpg);
+    border-radius: 10px;
+
+}
+
+.goldenaxe{
+    height: 80%;
+    width: 80%;
+    background-image: url(../menu/imagenes/goldenaxe.jpg);
+    background-size: cover;
+    background-position: top;
+
+}
+.goldenaxe:hover{
+    height: 90%;
+    width: 90%;
+    transition: 0.8s;
+}
+
+
+
+
+.comic{
+    height: 80%;
+    width: 80%;
+    background-image: url(../menu/imagenes/comiczone.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.comic:hover{
+    height: 90%;
+    width: 90%;
+    transition: 0.8s;
+}
+
+.chill{ 
+    display: flex;
+    flex-direction: row;
+    color: white;
+     width: 650px;
+    height: 70%;
+    background-image: url(../menu/imagenes/poligonosfond.jpg);
+    border-radius: 10px;
+
+}
+
+.tetris{
+    height: 80%;
+    width: 80%;
+    background-image: url(../menu/imagenes/tetris.jpeg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.tetris:hover{
+    height: 90%;
+    width: 90%;
+    transition: 0.8s;
+}
+
+.pacman{
+    height: 80%;
+    width: 80%;
+    background-image: url(../menu/imagenes/pacman.jpg);
+    background-position: center;
+    background-size: cover;
+    
+
+}
+
+.pacman:hover{
+    height: 90%;
+    width: 90%;
+    transition: 0.8s;
+}
+
+.disparos{
+    display: flex;
+    flex-direction: row;
+    color: white;
+     width: 650px;
+     margin-left: 50px;
+    height: 70%;
+    background-image: url(../menu/imagenes/poligonosfond.jpg);
+    border-radius: 10px;
+}
+
+
+
+
+.contra{
+    height: 80%;
+    width: 80%;
+    background-image: url(../menu/imagenes/contra.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    
+    
+}
+
+.contra:hover{
+    height: 90%;
+    width: 90%;
+    transition: 0.8s;
+}
+
+.metals{ 
+    background-image: url(../menu/imagenes/metalslug.jfif);
+    background-position: center;
+    background-size: cover;
+    height: 80%;
+    width: 80%;
+
+}
+
+.metals:hover{
+    height: 90%;
+    width: 90%;
+    transition: 0.8s;
+}
+
+
+
+
+
+
+
+
+th{ 
+background: #000;
+color:#fff }
+
+
+
+
+tr td{
+    color: #fff;
+    padding: 40px;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.Comentarios{
+    display: flex;
+    position: relative;
+    
+}
+
+
+.footer{
+
+  line-height:50px;
+  background:black;
+  color:white;
+  text-align:center;
+
+
+}
+
+
+/*Lo dejo al apartado de categorias auque lo movi en el inicio, por si son 5 paginas las que tengo que presentar, ya voy a poner algo mas*/
+
+
+.maincategorias
+{height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+
+.aventurass{
+    background-image: url(../menu/imagenes/poligonosfond.jpg);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 230px ;
+    border-radius: 10px;
+
+}
+
+
+.luchaa{
+     display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 200px;
+}
+
+
+
+.carrerass{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 200px;
+
+}
+
+
+.acccionn{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------*/
+
+
+
+
+/*---------------------------------------NUEVOS-----------------------------------------------*/
+
+
+
+
+}
+
+.titulo{
+    display: inline-block;
+    color: #fff;
+    font-size: 35px;
+    font-style: italic;
+    font-family:monospace;
+}
+
+.sub{
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+  .mainnuevos {display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: repeat(1, 1fr);
+
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    padding: 50px;
+    width: 100%;
+    border: medium 4px;
+    border-style: ridge;
+    border-radius: 10px;
+    border-right: none;
+    }
+
+    .todosjuegos{ /*lose queda del asco :(*/
+        width: 100%;
+        background-size: cover;
+    }
+
+
+
+/*--------------------------------------------MAS JUGADOS--------------------------------------*/
+
+
+ 
+.titulo{
+    color: #fff;
+    font-size: 40px;
+}
+
+.sub{
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+  .mainmasjugados {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 10% 60% auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    padding: 50px;
+    width: 100%;
+    border: medium 4px;
+    border-style: ridge;
+    border-radius: 10px;
+    border-right: none;
+    }
+
+    .Catalogo{ /*lose queda del asco :(*/
+        width: 100%;
+        background-size: cover;
+    }
+
+
+
+ /*-------------------------------------------------HELP---------------------------------------*/
+
+
+
+
+
+
+
+ .mainhelp {  
+    background-image: url(../menu/imagenes/fondoback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    padding: 50px;
+    width: 100%;
+    height: 50vh;
+    border: medium 4px;
+    border-style: ridge;
+    border-radius: 10px;
+    border-right: none;
+ }
+
+ .texto{
+    font-style: italic;
+    margin-bottom: 30px;
+ }
+
+
+
+ /* Sobreescribi el css sin querer y casi me da una embolia escribiendo todo otra vez*/
