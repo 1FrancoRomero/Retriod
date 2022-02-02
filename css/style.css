@@ -4,16 +4,18 @@
     box-sizing: border-box;
   font-family: 'Kanit', sans-serif;
 font-family: 'Roboto Mono', monospace;
-}
+ 
 
+
+}
 
 
 
 .gridAreas{
     display: grid;
     grid-template-areas:
-     "header   header"
      "nav      nav"
+     "header   header"
      "article  main"
      "footer   footer"
     ;
@@ -32,8 +34,7 @@ font-family: 'Roboto Mono', monospace;
 
 header {
     grid-area: header;
-    background-image: url(../menu/imagenes/poligonosfod.jpg);
-}
+    }
 
 nav {
     grid-area: nav;
@@ -70,26 +71,23 @@ footer {
 
 }
 
-h2 img{
-    padding-left: 30px;
-    padding-right: 25px;
+
+.logo1
+{
+    margin-right: 50px;
+    margin-bottom: 40px;
 }
 
 
+
+
+}
 
 .corona{
     display: inline-block;
    width:200px ;
     padding-left: 100px;
 }
-
-
-.header h2 {
-    padding-bottom: 30px;
-    font-size: 40px;
-    font-family: monospace;
-}
-
 
 
 
@@ -104,13 +102,10 @@ nav ul li:hover{
 
 
 .nav ul li{
-    display: inline-block;
-    width: 15%;
-    height: 8vh;
+
+   display: inline;
     padding: 15px;
     background-color: white;
-    border: groove;
-    border-radius: 10px;
 }
 
 
@@ -133,7 +128,6 @@ nav ul li:hover{
 }
 
 article {
-    height: 100%;
     border-radius: 50px;
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
@@ -179,20 +173,19 @@ article h2{
  }
 
 main content div{
+
     margin: 10px;
     display: inline-block;
     border: solid 2px;
     border-radius: 10px;
     height: 190px;
     width: 190px;
-    
-    
+        
 }
 
 .aventuras{
     display: flex;
     flex-direction: row;
-    
     color: white;
     width: 650px;
     height: 70%;
@@ -212,9 +205,9 @@ main content div{
     width: 80%;
     background-image: url(../menu/imagenes/sonic.jpg);
     background-size: cover;
-    background-position: center;
-    
+    background-position: center;   
 }
+
 
 .sonic:hover {
     height: 90%;
@@ -552,54 +545,10 @@ tr td{
 }
 
 
-.aventurass{
-    background-image: url(../menu/imagenes/poligonosfond.jpg);
-    color: whitesmoke;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 230px ;
-    border-radius: 10px;
-
-}
-
-
-.luchaa{
-     display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 200px;
-}
-
-
-
-.carrerass{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 200px;
-
-}
-
-
-.acccionn{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 200px;
-}
-
-
-
-
-
-
-
 
 
 
 /*--------------------------------------------------------------------------------------------*/
-
 
 
 
@@ -699,10 +648,9 @@ tr td{
     background-image: url(../menu/imagenes/fondoback.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 30px;
-    padding: 50px;
-    width: 100%;
-    height: 50vh;
+    
+   
+    
     border: medium 4px;
     border-style: ridge;
     border-radius: 10px;
