@@ -2,27 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  font-family: 'Kanit', sans-serif;
-font-family: 'Roboto Mono', monospace;
- 
 
-
+  
 }
-
-
-
-.gridAreas{
-    display: grid;
-    grid-template-areas:
-     "nav      nav"
-     "header   header"
-     "article  main"
-     "footer   footer"
-    ;
-      grid-template-columns: 20%  auto ;
-      grid-template-rows:10% 10%  auto ;
-      grid-column-gap: 5px ;
-      grid-row-gap: 10px;
 
 
 }
@@ -33,44 +15,37 @@ font-family: 'Roboto Mono', monospace;
 
 
 header {
-    grid-area: header;
     }
 
 nav {
-    grid-area: nav;
     padding: 5px;
 }
 
 body{
-    grid-area: body;
-    background-image: url(../menu/imagenes/fondoback.jpg);
+  
+    background-image: url(../imagenes/fondoback.jpg);
 }
 
 main{
-    grid-area:main ;
+   padding-right: 40px;
+    border-radius: 20px;
+    background-image: url(../imagenes/poligonosfond.jpg);
     background-color: whitesmoke;
-    background-image: url(../menu/imagenes/fondoback.jpg);
+
 }
 
 article{
-    grid-area: article;
-    background-image: url(../menu/imagenes/fondo2.jpg);
+    max-height:800px;
+    background-image: url(../imagenes/fondo2.jpg);
 
 
 
 }
 
-section{
-    grid-area: section;
 
-;
+.maindiv{
+display:inline-flex;
 }
-
-footer {
-    grid-area: footer;
-
-}
-
 
 .logo1
 {
@@ -108,7 +83,10 @@ nav ul li:hover{
     background-color: white;
 }
 
+.masJugados{
 
+    margin-left: 0;
+}
 
 .masJugados ol li:hover{
     background-color: gray;
@@ -116,18 +94,17 @@ nav ul li:hover{
 }
 
 .masJugados ol li{
-    display: flex;
-    flex-direction: column;
+
     color: white;
-    font-style: italic;
-    font-size: 30px;
+    font-size: 100%;
     padding: 20px;
     list-style-type: decimal;
-    margin: 20%;
+    
 
 }
 
 article {
+    margin: 0;
     border-radius: 50px;
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
@@ -145,358 +122,53 @@ article h2{
 
 
 
-   
-.main{
-    display: grid;
-    
-    grid-template-columns: repeat(2, 1fr) ;
-
-    grid-template-rows: repeat(3, 1fr);
 
 
 
-}
 
-
-
-.mainCategorias {  
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 30px;
-    padding: 50px;
-    width: 100%;
-    height: 100vh;
-    border: medium 4px;
-    border-style: ridge;
-    border-radius: 10px;
-    border-right: none;
- }
 
 main content div{
 
     margin: 10px;
-    display: inline-block;
+    
     border: solid 2px;
     border-radius: 10px;
-    height: 190px;
-    width: 190px;
+    
         
 }
 
-.aventuras{
-    display: flex;
-    flex-direction: row;
-    color: white;
-    width: 650px;
-    height: 70%;
-    background-image: url(../menu/imagenes/poligonosfond.jpg);
-    border-radius: 10px;
-}
 
-
-.aventuras:hover {
-    border: groove 4px;
-    transition: 0.5s;
-    border-color: gray;
-}
-
-.sonic{
-     height: 80%;
-    width: 80%;
-    background-image: url(../menu/imagenes/sonic.jpg);
-    background-size: cover;
-    background-position: center;   
-}
-
-
-.sonic:hover {
-    height: 90%;
-    width: 90%;
-    transition: 0.8s;
-
-}
-
-
-
-.zelda{
-     height: 80%;
-    width: 80%;
-    background-image: url(../menu/imagenes/zelda.jpg);
-    background-size: cover;
-    
-}
-
-.zelda:hover{
-    height: 90%;
-    width: 90%;
-    transition: 0.8s;
-}
-
-
-.lucha{
-    display: flex;
-    flex-direction: row;
-    color: white;
-     width: 650px;
-    height: 70%;
-    margin-left: 50px;
-    background-image: url(../menu/imagenes/poligonosfond.jpg);
-    border-radius: 10px;
-
-}
-
-.lucha:hover {
-    border: groove 4px;
-    transition: 0.5s;
-    border-color: gray;
-}
-
-.mortalk{
-     height: 80%;
-    width: 80%;
-    
-    background-image: url(../menu/imagenes/mortalk.jpeg);
-    background-size: cover;
-    background-position: center;
-}
-
-.mortalk:hover{
-    height: 90%;
-    width: 90%;
-    transition: 0.8s;
-}
-
-
-
-
-.streat{
-    
-    height: 80%;
-    width: 80%;
-    background-image: url(../menu/imagenes/stretf.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.streat:hover{
-    height: 90%;
-    width: 90%;
-    transition: 0.8s;
-}
-
-
-
-.carreras{
-    display: flex;
-    flex-direction: row;
-    color: white;
-     width: 650px;
-    height: 70%;
-    background-image: url(../menu/imagenes/poligonosfond.jpg);
-    border-radius: 10px;
-}
-
-
-.carreras:hover {
-    border: groove 4px;
-    transition: 0.5s;
-    border-color: gray;
-}
-
-
-
-.auto1{
-    height: 80%;
-    width: 80%;
-    background-image: url(../menu/imagenes/carreras1.png);
-    background-size: cover;
-    background-position: center;
-}
-
-.auto1:hover{
-    height: 90%;
-    width: 90%;
-    transition: 0.8s;
-}
-
-
-
-
-
-.taxi{
-    height: 80%;
-    width: 80%;
-    background-image: url(../menu/imagenes/taxi.png);
-    background-size: cover;
-    background-position: center;
-}
-
-
-
-
-.taxi:hover{
-    height: 90%;
-    width: 90%;
-    transition: 0.8s;
-}
-
-
-
-  
-.accion{
-    display: flex;
-    flex-direction: row;
-    color: white;
-     width: 650px;
-    height: 70%;
-   margin-left: 50px;
-    background-image: url(../menu/imagenes/poligonosfond.jpg);
-    border-radius: 10px;
-
-}
-
-.accion:hover {
-    border: groove 4px;
-    transition: 0.5s;
-    border-color: gray;
-}
-
-
-
-.goldenaxe{
-    height: 80%;
-    width: 80%;
-    background-image: url(../menu/imagenes/goldenaxe.jpg);
-    background-size: cover;
-    background-position: top;
-
-}
-.goldenaxe:hover{
-    height: 90%;
-    width: 90%;
-    transition: 0.8s;
-}
-
-
-
-
-.comic{
-    height: 80%;
-    width: 80%;
-    background-image: url(../menu/imagenes/comiczone.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.comic:hover{
-    height: 90%;
-    width: 90%;
-    transition: 0.8s;
-}
-
-.chill{ 
-    display: flex;
-    flex-direction: row;
-    color: white;
-     width: 650px;
-    height: 70%;
-    background-image: url(../menu/imagenes/poligonosfond.jpg);
-    border-radius: 10px;
-
-}
-
-.chill:hover {
-    border: groove 4px;
-    transition: 0.5s;
-    border-color: gray;
-}
-
-
-
-
-.tetris{
-    height: 80%;
-    width: 80%;
-    background-image: url(../menu/imagenes/tetris.jpeg);
-    background-position: center;
-    background-size: cover;
-    
-}
-
-.tetris:hover{
-    height: 90%;
-    width: 90%;
-    transition: 0.8s;
-}
-
-.pacman{
-    height: 80%;
-    width: 80%;
-    background-image: url(../menu/imagenes/pacman.jpg);
-    background-position: center;
-    background-size: cover;
-    
-
-}
-
-.pacman:hover{
-    height: 90%;
-    width: 90%;
-    transition: 0.8s;
-}
-
-.disparos{
-    display: flex;
-    flex-direction: row;
-    color: white;
-     width: 650px;
-     margin-left: 50px;
-    height: 70%;
-    background-image: url(../menu/imagenes/poligonosfond.jpg);
-    border-radius: 10px;
-}
-
-
-.disparos:hover {
-    border: groove 4px;
-    transition: 0.5s;
-    border-color: gray;
-}
 
 .contra{
-    height: 80%;
-    width: 80%;
-    background-image: url(../menu/imagenes/contra.jpg);
-    background-position: center;
-    background-size: cover;
     
+  max-height:350px;
     
-    
-}
-
-.contra:hover{
-    height: 90%;
-    width: 90%;
-    transition: 0.8s;
-}
-
-.metals{ 
-    background-image: url(../menu/imagenes/metalslug.jfif);
-    background-position: center;
-    background-size: cover;
-    height: 80%;
-    width: 80%;
-
-}
-
-.metals:hover{
-    height: 90%;
-    width: 90%;
-    transition: 0.8s;
+  
 }
 
 
 
+.card-body:hover{
+
+    border: solid;
+    color: white;
+    transition:0.5s;
+
+
+}
+
+
+
+
+
+.card:hover{
+
+    border: solid;
+    color: gray;
+    transition:0.5s;
+
+
+}
 
 
 
@@ -524,12 +196,11 @@ tr td{
 
 
 .footer{
-
+ text-align: center;
   line-height:50px;
   background:black;
   color:white;
-  text-align:center;
-
+  
 
 }
 
@@ -598,41 +269,18 @@ tr td{
 
 
 
-/*--------------------------------------------MAS JUGADOS--------------------------------------*/
+/*--------------------------------------------Tienda--------------------------------------*/
 
-
- 
-.titulo{
-    color: #fff;
-    font-size: 40px;
+.carrusel{
+    height: 400px;
+    width: 400px;
 }
 
-.sub{
-    color: #fff;
-    font-size: 20px;
+.mando2{
+    background-color: white;
+    height: 300px;
 }
 
-
-
-  .mainmasjugados {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 20% 10% 60% auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 30px;
-    padding: 50px;
-    width: 100%;
-    border: medium 4px;
-    border-style: ridge;
-    border-radius: 10px;
-    border-right: none;
-    }
-
-    .Catalogo{ /*lose queda del asco :(*/
-        width: 100%;
-        background-size: cover;
-    }
 
 
 
@@ -645,11 +293,9 @@ tr td{
 
 
  .mainhelp {  
-    background-image: url(../menu/imagenes/fondoback.jpg);
+    background-image: url(../imagenes/fondoback.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
-   
     
     border: medium 4px;
     border-style: ridge;

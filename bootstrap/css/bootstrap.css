@@ -635,6 +635,7 @@ progress {
   margin-left: auto;
 }
 
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
@@ -4492,7 +4493,7 @@ textarea.form-control-lg {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #000;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -4526,6 +4527,7 @@ textarea.form-control-lg {
 }
 
 .card-title {
+  color: #fff;
   margin-bottom: 0.5rem;
 }
 
@@ -4535,7 +4537,10 @@ textarea.form-control-lg {
 }
 
 .card-text:last-child {
+ 
+  color: #fff;
   margin-bottom: 0;
+
 }
 
 .card-link + .card-link {
