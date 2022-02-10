@@ -1,0 +1,72 @@
+/* Esto es un ccoooooooooomentario we */
+
+
+@import "_secciones";
+
+
+$color:white;
+$heigth:340px;
+
+
+body{
+    p{
+    color:$color;
+    }
+	h2{
+	color:$color;
+	}
+}
+
+nav{ 
+.logo1{
+	padding:15px;
+}
+background:#40826d;
+	 ul{
+	 list-stile: none
+	 }
+}
+
+
+article{
+li{
+padding:10px;
+font-size:30px;
+   font-style: italic;
+	color:white;
+}
+
+   diplay:flex;
+
+  }
+
+
+
+
+
+  .maindiv{
+  padding:20px;
+  border:unset 2px $color ;
+  background-color:#40856d;
+	display:flex;
+    .contra{
+    max-height:340px;
+    }
+
+
+
+	}
+
+
+	footer{
+	padding-top:20px;
+	display: flex;
+    justify-content: space-around;
+	background-color:black;
+	}
+	a{
+	display:flex;
+
+	}
+
+

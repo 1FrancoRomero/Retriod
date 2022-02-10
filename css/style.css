@@ -1,313 +1,51 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Esto es un ccoooooooooomentario we */
+body p {
+  color: white; }
 
-  
-}
-
-
-}
-
-
-
-/*GRID AREAS*/
-
-
-header {
-    }
+body h2 {
+  color: white; }
 
 nav {
-    padding: 5px;
-}
+  background: #40826d; }
+  nav .logo1 {
+    padding: 15px; }
+  nav ul {
+    list-stile: none; }
 
-body{
-  
-    background-image: url(../imagenes/fondoback.jpg);
-}
+body p {
+  color: white; }
 
-main{
-   padding-right: 40px;
-    border-radius: 20px;
-    background-image: url(../imagenes/poligonosfond.jpg);
-    background-color: whitesmoke;
+body h2 {
+  color: white; }
 
-}
-
-article{
-    max-height:800px;
-    background-image: url(../imagenes/fondo2.jpg);
-
-
-
-}
-
-
-.maindiv{
-display:inline-flex;
-}
-
-.logo1
-{
-    margin-right: 50px;
-    margin-bottom: 40px;
-}
-
-
-
-
-}
-
-.corona{
-    display: inline-block;
-   width:200px ;
-    padding-left: 100px;
-}
-
-
-
-
-
-
-nav ul li:hover{
-    background-color: whitesmoke;
-    transition: black;
-
-}
-
-
-.nav ul li{
-
-   display: inline;
-    padding: 15px;
-    background-color: white;
-}
-
-.masJugados{
-
-    margin-left: 0;
-}
-
-.masJugados ol li:hover{
-    background-color: gray;
-    transition: 1s;
-}
-
-.masJugados ol li{
-
-    color: white;
-    font-size: 100%;
-    padding: 20px;
-    list-style-type: decimal;
-    
-
-}
+nav {
+  background: #40826d; }
+  nav .logo1 {
+    padding: 15px; }
+  nav ul {
+    list-stile: none; }
 
 article {
-    margin: 0;
-    border-radius: 50px;
-    border-bottom-left-radius: 0;
-    border-top-left-radius: 0;
-}
-
-
-
-article h2{
-    font-style: italic;
-    color: white;
+  diplay: flex; }
+  article li {
+    padding: 10px;
     font-size: 30px;
-    padding: 30px;
-}
-
-
-
-
-
-
-
-
-
-main content div{
-
-    margin: 10px;
-    
-    border: solid 2px;
-    border-radius: 10px;
-    
-        
-}
-
-
-
-.contra{
-    
-  max-height:350px;
-    
-  
-}
-
-
-
-.card-body:hover{
-
-    border: solid;
-    color: white;
-    transition:0.5s;
-
-
-}
-
-
-
-
-
-.card:hover{
-
-    border: solid;
-    color: gray;
-    transition:0.5s;
-
-
-}
-
-
-
-
-
-th{ 
-background: #000;
-color:#fff }
-
-
-
-
-tr td{
-    color: #fff;
-    padding: 40px;
-    font-size: 25px;
     font-style: italic;
-}
+    color: white; }
 
-.Comentarios{
-    display: flex;
-    position: relative;
-    
-}
+.maindiv {
+  padding: 20px;
+  border: unset 2px white;
+  background-color: #40856d;
+  display: flex; }
+  .maindiv .contra {
+    max-height: 340px; }
 
+footer {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  background-color: black; }
 
-.footer{
- text-align: center;
-  line-height:50px;
-  background:black;
-  color:white;
-  
-
-}
-
-
-/*Lo dejo al apartado de categorias auque lo movi en el inicio, por si son 5 paginas las que tengo que presentar, ya voy a poner algo mas*/
-
-
-.maincategorias
-{height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-}
-
-
-
-
-
-/*--------------------------------------------------------------------------------------------*/
-
-
-
-/*---------------------------------------NUEVOS-----------------------------------------------*/
-
-
-
-
-}
-
-.titulo{
-    display: inline-block;
-    color: #fff;
-    font-size: 35px;
-    font-style: italic;
-    font-family:monospace;
-}
-
-.sub{
-    color: #fff;
-    font-size: 20px;
-}
-
-
-
-  .mainnuevos {display: grid;
-    grid-template-rows: 100%;
-    grid-template-columns: repeat(1, 1fr);
-
-
-
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 30px;
-    padding: 50px;
-    width: 100%;
-    border: medium 4px;
-    border-style: ridge;
-    border-radius: 10px;
-    border-right: none;
-    }
-
-    .todosjuegos{ /*lose queda del asco :(*/
-        width: 100%;
-        background-size: cover;
-    }
-
-
-
-/*--------------------------------------------Tienda--------------------------------------*/
-
-.carrusel{
-    height: 400px;
-    width: 400px;
-}
-
-.mando2{
-    background-color: white;
-    height: 300px;
-}
-
-
-
-
- /*-------------------------------------------------HELP---------------------------------------*/
-
-
-
-
-
-
-
- .mainhelp {  
-    background-image: url(../imagenes/fondoback.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    border: medium 4px;
-    border-style: ridge;
-    border-radius: 10px;
-    border-right: none;
- }
-
- .texto{
-    font-style: italic;
-    margin-bottom: 30px;
- }
-
-
-
- /* Sobreescribi el css sin querer y casi me da una embolia escribiendo todo otra vez*/
+a {
+  display: flex; }
