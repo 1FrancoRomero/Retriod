@@ -1,32 +1,21 @@
 /* Esto es un ccoooooooooomentario we */
-body p {
-  color: white; }
+body {
+  background-image: url(../imagenes/fondo2.jpg); }
 
-body h2 {
+body h1 {
   color: white; }
-
-nav {
-  background: #40826d; }
-  nav .logo1 {
-    padding: 15px; }
-  nav ul {
-    list-stile: none; }
 
 body p {
   color: white; }
 
-body h2 {
-  color: white; }
-
-nav {
-  background: #40826d; }
-  nav .logo1 {
-    padding: 15px; }
-  nav ul {
-    list-stile: none; }
+.logo1 {
+  padding-right: 15px; }
 
 article {
-  diplay: flex; }
+  max-height: 800px;
+  background-image: url(../imagenes/fondo2.jpg); }
+  article h2 {
+    color: white; }
   article li {
     padding: 10px;
     font-size: 30px;
@@ -36,16 +25,42 @@ article {
 .maindiv {
   padding: 20px;
   border: unset 2px white;
-  background-color: #40856d;
   display: flex; }
-  .maindiv .contra {
-    max-height: 340px; }
 
-footer {
-  padding-top: 20px;
+.card img {
+  height: 380px;
+  width: 100%; }
+
+.card-body:hover {
+  border: solid;
+  color: white;
+  transition: 0.5s; }
+
+.card:hover {
+  border: solid;
+  color: gray;
+  transition: 0.5s; }
+
+th {
+  background: #000;
+  color: #fff; }
+
+tr td {
+  color: #fff;
+  padding: 40px;
+  font-size: 25px;
+  font-style: italic; }
+
+.Comentarios {
   display: flex;
-  justify-content: space-around;
-  background-color: black; }
+  position: relative; }
+
+.footer {
+  text-align: center;
+  line-height: 50px;
+  background: black;
+  color: white; }
 
 a {
-  display: flex; }
+  display: flex;
+  flex-direction: column; }

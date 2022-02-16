@@ -1,42 +1,46 @@
 /* Esto es un ccoooooooooomentario we */
 
 
-@import "_secciones";
+@import "_diseño";
 
 
+$teal:-300;
 $color:white;
 $heigth:340px;
 
 
 body{
-    p{
+	h1{
+		color: $color;
+	}
+
+	p{
     color:$color;
     }
 	h2{
-	color:$color;
+		$teal:-300;
 	}
+
 }
 
-nav{ 
 .logo1{
-	padding:15px;
-}
-background:#40826d;
-	 ul{
-	 list-stile: none
-	 }
+	padding-right:15px;
 }
 
-
-article{
+article
+	{
+		max-height:800px;
+		background-image: url(../imagenes/fondo2.jpg);
+		h2{
+			color:$color;
+		}
 li{
 padding:10px;
 font-size:30px;
    font-style: italic;
 	color:white;
 }
-
-   diplay:flex;
+  
 
   }
 
@@ -47,26 +51,66 @@ font-size:30px;
   .maindiv{
   padding:20px;
   border:unset 2px $color ;
-  background-color:#40856d;
+  
 	display:flex;
-    .contra{
-    max-height:340px;
-    }
-
-
-
+    
 	}
 
 
-	footer{
-	padding-top:20px;
-	display: flex;
-    justify-content: space-around;
-	background-color:black;
+	.card img{
+		height:380px; 
+		width: 100%;   
+	   }
+     
+
+	   .card-body:hover{
+    
+		border: solid;
+		color: white;
+		transition:0.5s;
+	
+	
 	}
-	a{
-	display:flex;
-
+	
+	
+	.card:hover{
+	
+		border: solid;
+		color: gray;
+		transition:0.5s;
+	
+	
 	}
 
 
+	th{ 
+		background: #000;
+		color:#fff }
+		
+		
+		
+		
+		tr td{
+			color: #fff;
+			padding: 40px;
+			font-size: 25px;
+			font-style: italic;
+		}
+		
+		.Comentarios{
+			display: flex;
+			position: relative;
+			
+		}
+		
+		
+		.footer{
+		 text-align: center;
+		  line-height:50px;
+		  background:black;
+		  color:white;
+		}
+	a {
+		display: flex;
+	flex-direction: column;
+}
